@@ -33,14 +33,16 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <div class="section__description">
-                <div class="section__description--wrapper">
-                    <p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque beatae repellat molestias, maiores veniam ex cupiditate eius vero voluptate minima.</p>
-                    <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laudantium mollitia voluptatibus explicabo repellat minus exercitationem sunt ad ex at.</p>
+            <div class="row">
+                <div class="section__description">
+                    <div class="section__description--wrapper">
+                        <p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque beatae repellat molestias, maiores veniam ex cupiditate eius vero voluptate minima.</p>
+                        <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laudantium mollitia voluptatibus explicabo repellat minus exercitationem sunt ad ex at.</p>
+                    </div>
+                    <figure class="about__img--wrapper">
+                        <img src="HTML Practise Assets/about.jpg" alt="About Image">
+                    </figure>
                 </div>
-                <figure class="about__img--wrapper">
-                    <img src="HTML Practise Assets/about.jpg" alt="About Image">
-                </figure>
             </div>
          </section>
 
@@ -49,13 +51,15 @@
 
         <section id="discord">
           <h2>Discord</h2>
-            <div class="section__description">
-                <figure class="about__img--wrapper">
-                    <img src="HTML Practise Assets/discord.png" alt="Discord Logo">
-                </figure>
-                <div class="section__description--wrapper">
-                    <p class="section__description--para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quaerat consectetur, harum excepturi cupiditate mollitia minus perferendis esse aspernatur. Harum.</p>
-                    <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur placeat laborum magni praesentium eveniet doloribus, in accusantium perferendis? Odio, illum?</d>
+            <div class="row">
+                <div class="section__description">
+                    <figure class="about__img--wrapper">
+                        <img src="HTML Practise Assets/discord.png" alt="Discord Logo">
+                    </figure>
+                    <div class="section__description--wrapper">
+                        <p class="section__description--para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quaerat consectetur, harum excepturi cupiditate mollitia minus perferendis esse aspernatur. Harum.</p>
+                        <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur placeat laborum magni praesentium eveniet doloribus, in accusantium perferendis? Odio, illum?</d>
+                    </div>
                 </div>
             </div>
         </section>
@@ -64,23 +68,25 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <form>
-                <label for="email">Email</label>
-                <input id="email" type="email" placeholder="jane.doe@email.com">
-                <label>Message</label>
-                <textarea placeholder="Nice Website!"></textarea>
-                <button> Contact Us!</button>
-            </form>
+            <div class="row">
+                <form>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="jane.doe@email.com">
+                    <label>Message</label>
+                    <textarea placeholder="Nice Website!"></textarea>
+                    <button> Contact Us!</button>
+                </form>
+            </div>  
         </section> 
     </main>
     <footer>
         <img class="footer__logo" src="HTML Practise Assets/FES.svg" alt="FES logo">
         <div class="footer__links">
             <ul>
-                <li><a class="footer__link" href="#discord">Discord</a></li>
-                <li><a class="footer__link" href="#about">About</a></li>
-                <li><a class="footer__link" href="#contact">Contact</a></li>
-                <li><a class="footer__link" href="#courses">Courses</a></li>
+                <li class="footer__link"><a href="#discord">Discord</a></l>
+                <li class="footer__link"><a href="#about">About</a></l>
+                <li class="footer__link"><a href="#contact">Contact</a></li>
+                <li class="footer__link"><a href="#courses">Courses</a></li>
             </ul>
         </div>
         <p>Copyright Frontend Simplified</p>
